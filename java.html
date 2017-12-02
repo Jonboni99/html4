@@ -30,6 +30,11 @@
             }
           
             console.log(time);
+            function water() {
+                var input = document.getElementById("num").value;
+                var amount = input*10
+                console.log(amount);
+            }
         </script>
         </head>
         <body>
@@ -42,5 +47,10 @@
                 <a href="tanker.html">Tanker Trucks</a>
                 <a href="contacts.html">Contacts</a>
             </nav>
+            <br>
+            <hr>
+            <p>Enter amount</p>
+            <button id="add" onclick="water()">button</button>
+            <input type="text" id="num">
         </body>
 </html>
