@@ -1,3 +1,40 @@
-body {
-    margin: 25px;
-}
+h2	{ 
+    
+        color: black;
+    font-family: 'helvetica', sans-serif; 
+    border-style: solid;
+    border-width: 2px
+    border-color: white; 
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    }
+    
+    h2	{
+    
+        color: black;
+    font-family: 'helvetica', sans-serif; 
+    border-style: solid;
+    border-width: 2px
+    border-color: white; 
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    }
+    
+    body	{
+        background-color: red
+    }
+    
+    img	{
+        
+        border-style: solid;
+    border-width: 2px
+    border-color: white; 
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    }

@@ -19,7 +19,7 @@
             var d = new Date();
             var time = d.getHours();
             var a = prompt("Enter your name")
-            if (time < 11) {
+            if (time < 10) {
                 alert("Good Morning " + a)
             } else if (time < 14) {
                 alert("Good Afternoon " + a)
@@ -33,7 +33,11 @@
             function water() {
                 var input = document.getElementById("num").value;
                 var amount = input/500000
+                if (input != 500000) {
                 alert("The amount of money you entered can buy " + amount + " Fire Trucks!");
+                } else {
+                    alert("The amount of money you entered can buy " + amount + " Fire Truck!")
+                }
             }
         </script>
         </head>
@@ -48,6 +52,7 @@
                 <a href="contacts.html">Contacts</a>
             </nav>
             <br>
+            <p>On average a Fire Truck costs $500,000</p>
             <hr>
             <p>Enter any amount of dollars to see how many Fire Trucks it can buy.</p>
             <button id="add" onclick="water()">Firetrucks</button>
