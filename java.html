@@ -16,12 +16,20 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="java.css">
         <script>
+            var d = new Date();
+            var time = d.getHours();
             var a = prompt("Enter your name")
-            if (a.length > 5) {
-                console.log("Hello" + a + "Cheers")
+            if (time < 11) {
+                alert("Good Morning " + a)
+            } else if (time < 14) {
+                alert("Good Afternoon " + a)
+            } else if (time < 23) {
+                alert("Good Evening " + a)
             } else {
-                console.log("Fuck")
+                alert("Good Day " + a)
             }
+          
+            console.log(time);
         </script>
         </head>
         <body>
