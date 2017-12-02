@@ -32,8 +32,8 @@
             console.log(time);
             function water() {
                 var input = document.getElementById("num").value;
-                var amount = input*10
-                console.log(amount);
+                var amount = input/500000
+                alert("The amount of money you entered can buy " + amount + " Fire Trucks!");
             }
         </script>
         </head>
@@ -49,8 +49,8 @@
             </nav>
             <br>
             <hr>
-            <p>Enter amount</p>
-            <button id="add" onclick="water()">button</button>
+            <p>Enter any amount of dollars to see how many Fire Trucks it can buy.</p>
+            <button id="add" onclick="water()">Firetrucks</button>
             <input type="text" id="num">
         </body>
 </html>
